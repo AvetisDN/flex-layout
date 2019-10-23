@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="plugins/lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -21,9 +24,9 @@
                 </div>
                 <nav class="header-content-menu">
                     <ul>
-                        <li>
+                        <li class="active">
                             <a href="#">
-                                <i class="fas fa-home"></i> Home
+                                <i class="icon-home"></i>
                             </a>
                         </li>
                         <li>
@@ -35,11 +38,45 @@
                             <a href="#">
                                 Service
                             </a>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Web App
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        3D Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        iOS/Android development
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="#">
                                 Portfolio
                             </a>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Web App
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        3D Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        iOS/Android development
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="#">
@@ -54,7 +91,47 @@
 
     <main class="container">
         <section class="section">
-            MAIN CONTENT
+            
+            <div class="gallery">
+                <figure>
+                    <a href="images/photos/1.jpg"
+                        style="background-image: url(images/photos/1s.jpg);"
+                        data-lightbox="landscape">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="images/photos/2.jpg"
+                        style="background-image: url(images/photos/2s.jpg);"
+                        data-lightbox="landscape">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="images/photos/3.jpg"
+                        style="background-image: url(images/photos/3s.jpg);"
+                        data-lightbox="landscape">
+                    </a>
+                </figure>
+            </div>
+
+            <div class="features">
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><h4>1</h4></div>
+                    <div class="item"><h4>2</h4></div>
+                    <div class="item"><h4>3</h4></div>
+                    <div class="item"><h4>4</h4></div>
+                    <div class="item"><h4>5</h4></div>
+                    <div class="item"><h4>6</h4></div>
+                    <div class="item"><h4>7</h4></div>
+                    <div class="item"><h4>8</h4></div>
+                    <div class="item"><h4>9</h4></div>
+                    <div class="item"><h4>10</h4></div>
+                    <div class="item"><h4>11</h4></div>
+                    <div class="item"><h4>12</h4></div>
+                </div>
+
+            </div>
+
         </section>
         <aside class="sidebar">
             SIDEBAR
@@ -67,5 +144,10 @@
         </div>
     </footer>
 
+    <script src="plugins/jquery-3.4.1.min.js"></script>
+    <script src="plugins/lightbox/js/lightbox.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
 </body>
 </html>
